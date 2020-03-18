@@ -11,7 +11,7 @@ START_DATE = pd.to_datetime('2019-3-6', utc=True)
 # 结速日期
 END_DATE = pd.to_datetime('2019-3-7', utc=True)
 # 观测历史条数
-BAR_COUNT = 1
+BAR_COUNT = 5
 
 class LTCENV():
     def reset(self):
